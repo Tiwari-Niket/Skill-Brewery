@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300&family=Lora&family=Kalam:wght@700&family=Poppins&family=Raleway&family=Ruwudu&family=Yesteryear&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #6F5643;
+  background: #FCE1AD;
+}
+
+.color{
+ color: #000000;
+}
+
+.swiper-button-next{
+  color: yellow;
+}
+
+.active {
+  background-image: url('/assets/bg.png');
+  height: 38px;
+  width: max-content;
+  padding: 0px 5px;
+}
+
+.nav{
+  background-color: #FCE1AD;
+}
+
+.button{
+ background-color: white;
+ border-radius: 20px;
+ padding: 5px 18px;
+ font-size: large;
+ font-weight: 500;
+}
+
+.coursel {
+  position: relative;
+}
+
+.border-radius{
+  border-radius: 70px 70px;
+}
+
+.coursel-title {
+  position: absolute;
+  right: 17%;
+  top: 10%;
+  color: white;
+}
+
+.coursel-text {
+  position: absolute;
+  right: 21%;
+  bottom: 17%;
+  color: #CC6B49;
+}
+
+.coursel-desc {
+  position: absolute;
+  right: 10%;
+  bottom: 23%;
+  left: 50%;
+  color: white;
+}
+
+.domain{
+  position: absolute;
+  top: 24%;
+  right: 35%;
+  color: #551A28;
+}
+
+.red{
+  color: #551A28;
+}
+
+input{
+  box-shadow: 5px 10px #000000;
+}
+
+.title{
+  color: #6F5643;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.flex-start {
+  @apply flex justify-start items-start;
+}
+
+.flex-end {
+  @apply flex justify-end items-center;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
