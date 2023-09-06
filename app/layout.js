@@ -4,11 +4,6 @@ import Nav from '@components/Nav';
 import { useState } from 'react';
 import StartScreen from '@components/StartScreen ';
 
-export const metadata = {
-  title: "Skill Brewery",
-  description: "Skill Brewery"
-};
-
 const RootLayout = ({ children }) => {
   const [showStartScreen, setShowStartScreen] = useState(true);
 
