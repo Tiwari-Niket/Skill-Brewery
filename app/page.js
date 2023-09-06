@@ -124,7 +124,7 @@ const Home = () => {
           <SwiperSlide className='coursel'>
             <div className="swiper-button-prev" style={swiperStyles.prevButton}></div>
             <Image
-              src='/assets/slider3.png'
+              src='/assets/slider.png'
               alt='logo'
               width={1500}
               height={456}
