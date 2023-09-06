@@ -90,11 +90,9 @@ const Home = () => {
   };
 
   const handleSubmit = async () => {
-    console.log(OTP, detail.otp);
     if (OTP.otp !== detail.otp) {
       setOtpError(true);
     }
-    console.log(otpError);
   };
 
   return (
