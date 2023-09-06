@@ -172,11 +172,10 @@ const Home = () => {
       <section className='ml-5 flex-between'>
         <div>
           <h1 className='text-3xl mt-5 title font-black mb-3 font-Kalam'>Ready to Power-Up Your Coding Journey?</h1>
-          <Link href='https://docs.google.com/forms/d/e/1FAIpQLSdf17YI0sj5Eu1zHnbAKvOkJzO4hd4bWuU-AiAHZFwRou32Gw/viewform' className='title text-xl font-bold mb-2 font-Raleway'>Fill the Verification Form: Link</Link>
           <p className='text-lg w-[80%] text-justify font-Raleway'>Complete the form below after filling out the verification form above. You'll receive a verification code after submitting the Google Form. New cohorts launch every month on the 15th!</p>
           <form onSubmit={updateUser} className='mt-5 mb-5'>
-            <div className='mb-7'>
-              <label className='red font-Ruwudu mr-40 text-xl font-bold'>Email:</label>
+            <div className='mb-7 flex-center mr-60'>
+              <label className='red cursor font-Ruwudu mr-40 text-xl font-bold'>Email:</label>
               <input className='rounded-full py-3 p-2 w-[350px]' onChange={(e) => handleInputChange(e, 'email')} required />
               <button className='red ml-16 coursel' onClick={newUser}>
                 <Image
@@ -189,24 +188,24 @@ const Home = () => {
               </button>
             </div>
             <div className='mb-7'>
-              <label className='red font-Ruwudu mr-40 text-xl font-bold'>Name:</label>
+              <label className='red cursor font-Ruwudu mr-40 text-xl font-bold'>Name:</label>
               <input className='rounded-full py-3 p-2 w-[350px]' onChange={(e) => handleInputChange(e, 'name')} required />
             </div>
             <div className='mb-7'>
-              <label className='red font-Ruwudu text-xl font-bold mr-16'>Degree + College:</label>
+              <label className='red cursor font-Ruwudu text-xl font-bold mr-16'>Degree + College:</label>
               <input className='rounded-full py-3 ml-1 p-2 w-[350px]' onChange={(e) => handleInputChange(e, 'college')} required />
             </div>
             <div className='mb-7'>
-              <label className='red font-Ruwudu text-xl font-bold mr-14'>Current Semester:</label>
+              <label className='red cursor font-Ruwudu text-xl font-bold mr-14'>Current Semester:</label>
               <input className='rounded-full py-3 p-2 w-[350px]' onChange={(e) => handleInputChange(e, 'current_semester')} required />
             </div>
             <div className='mb-7'>
-              <label className='red font-Ruwudu text-xl font-bold mr-32'>Domain:</label>
+              <label className='red cursor font-Ruwudu text-xl font-bold mr-32'>Domain:</label>
               <input className='rounded-full py-3 ml-2 p-2 w-[350px]' onChange={(e) => handleInputChange(e, 'domain')} required />
             </div>
             <div className='mb-7'>
               {otpError && <p className='red text-center mt-2 mr-60 font-Ruwudu text-lg'>Wrong Otp!</p>}
-              <label className='red font-Ruwudu text-xl font-bold mr-14'>Verification Code:</label>
+              <label className='red cursor font-Ruwudu text-xl font-bold mr-14'>Verification Code:</label>
               <input className='rounded-full py-3 p-2 w-[350px]' onChange={(e) => handleInputChange(e, 'otp')} required />
             </div>
             <button onClick={handleSubmit} className='red ml-40 mt-2 coursel'>
@@ -237,7 +236,7 @@ const Home = () => {
           <h3 className='absolute text-xl font-bold color flex-center top-[61%] right-[21%]'><BsDot /> Product Management</h3>
         </div>
       </section>
-      <section className='ml-5 mb-32'>
+      <section className='ml-5 mb-16'>
         <h1 className='text-3xl mb-6 title font-bold font-Kalam'>Travel Back in Time: Hear from Our Retro Interns</h1>
         <p className='text-xl w-[55%] pr-3 mb-10 font-Raleway font-medium'>Curious to see what our ex-interns have to say about their unforgettable journeys at Skill Brewery? Dive into the past and listen to their tales of triumph and adventure!</p>
         <p className='text-xl font-Raleway'><span className='font-bold'>LinkedIn Testimonials:</span> (LinkedIn Link)</p>
@@ -258,7 +257,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <p className='text-xl font-Ruwudu text-center font-bold color mt-2'>Watch the YT videos here</p>
       </section>
       <Footer />
     </div>
