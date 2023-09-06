@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Skill Brewery Internship Landing Page
 
-## Getting Started
+Welcome to the Skill Brewery Internship Landing Page repository! 
+The Skill Brewery Internship Landing Page is our digital invitation to talented individuals looking to join the dynamic team. We've drawn inspiration from the retro and vintage design trends to create a visually appealing, memorable, and easy-to-navigate landing page.
 
-First, run the development server:
+Our goal is to pique the curiosity of potential interns and entice them to explore what Skill Brewery has to offer. Through this page, we aim to provide clear information about the internship program and facilitate the application process.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Demo
+Check out the live Skill Brewery Internship Landing Page to experience the vintage charm for yourself!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Skill brewery](https://github.com/komproximal/Skill-Brewery/assets/91416542/0f799379-37e4-4eac-a3d8-cf2e339cc043)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### [Skill Brewery Internship Page](https://skill-brewery.vercel.app/) 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
++ Retro/Vintage Design: A visually appealing and nostalgic design that sets us apart.
++ Clear Internship Details: Comprehensive information about the internship program.
++ Registration Form: An easy-to-fill registration form for prospective interns.
++ Custom Illustrations: Unique vintage-style illustrations that add character to the page.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We hope you enjoy using the Skill Brewery Internship Landing Page. If you have any questions, suggestions, or feedback, please don't hesitate to reach out.
